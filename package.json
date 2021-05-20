@@ -1,0 +1,27 @@
+{
+  "name": "test_tallywiz",
+  "version": "1.0.0",
+  "description": "user chat application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://RutalJadav@bitbucket.org/RutalJadav/chat_application_tallywiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/RutalJadav/chat_application_tallywiz#readme",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^5.12.8",
+    "mongoose-plugin-autoinc": "^1.1.9",
+    "underscore": "^1.13.1",
+    "ws": "^7.4.5",
+    "wscat": "^4.0.1"
+  }
+}
